@@ -1,0 +1,199 @@
+.principal {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .principal .div {
+    background-image: url(./img/principal.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .principal .frame {
+    gap: 80px;
+    position: absolute;
+    top: 220px;
+    left: 75px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .principal .mental-math-wrapper {
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .principal .mental-math {
+    position: relative;
+    width: 748.2px;
+    flex: 0 0 auto;
+  }
+  
+  .principal .group {
+    width: 139px;
+    left: 576px;
+    position: absolute;
+    height: 139px;
+    top: 355px;
+  }
+  
+  .principal .overlap-group {
+    width: 153px;
+    border-radius: 76.39px;
+    box-shadow: 0px 11.5px 28.74px #5c73a01a;
+    background: linear-gradient(
+      180deg,
+      rgb(169, 236, 106) 0%,
+      rgb(31, 192, 131) 100%
+    );
+    position: relative;
+    height: 153px;
+    top: -7px;
+    left: -7px;
+    border: 6.9px solid;
+    border-color: #ffffff;
+  }
+  
+  .principal .bold-settings-fine {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 35px;
+    left: 35px;
+  }
+  
+  .principal .overlap-wrapper {
+    width: 139px;
+    left: 140px;
+    position: absolute;
+    height: 139px;
+    top: 355px;
+  }
+  
+  .principal .overlap {
+    width: 153px;
+    border-radius: 76.39px;
+    box-shadow: 0px 20.69px 28.74px #7174980d;
+    background: linear-gradient(
+      180deg,
+      rgb(61, 29, 255) 0%,
+      rgb(212, 81, 255) 100%
+    );
+    position: relative;
+    height: 153px;
+    top: -7px;
+    left: -7px;
+    border: 6.9px solid;
+    border-color: var(--whitewhite);
+  }
+  
+  .principal .bold-network-IT {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 35px;
+    left: 36px;
+  }
+  
+  .principal .overlap-group-wrapper {
+    width: 140px;
+    left: 1012px;
+    position: absolute;
+    height: 139px;
+    top: 355px;
+  }
+  
+  .principal .bold-network-IT-wrapper {
+    width: 154px;
+    border-radius: 76.9px / 76.39px;
+    box-shadow: 0px 11.5px 28.74px #5c73a01a;
+    background: linear-gradient(
+      180deg,
+      rgb(251, 103, 166.45) 0%,
+      rgb(254, 59, 97) 100%
+    );
+    position: relative;
+    height: 153px;
+    top: -7px;
+    left: -7px;
+    border: 6.9px solid;
+    border-color: #ffffff;
+  }
+  
+  .principal .img {
+    position: absolute;
+    width: 70px;
+    height: 69px;
+    top: 35px;
+    left: 35px;
+  }
+  
+  .principal .difficulties-coming {
+    position: absolute;
+    width: 417px;
+    height: 115px;
+    top: 713px;
+    left: 69px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--darkdark);
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 38px;
+  }
+  
+  .principal .text-wrapper {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #111928;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 38px;
+  }
+  
+  .principal .span {
+    font-size: 36px;
+  }
+  
+  .principal .text-wrapper-2 {
+    position: absolute;
+    width: 417px;
+    height: 57px;
+    top: 742px;
+    left: 513px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--darkdark);
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 38px;
+  }
+  
+  .principal .text-wrapper-3 {
+    position: absolute;
+    width: 420px;
+    height: 57px;
+    top: 742px;
+    left: 949px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--darkdark);
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 38px;
+  }
+  

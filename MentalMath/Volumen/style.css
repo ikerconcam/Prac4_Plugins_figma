@@ -1,0 +1,141 @@
+.volumen {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.volumen .div {
+    background-image: url(./img/volumen.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.volumen .frame {
+    gap: 80px;
+    position: absolute;
+    top: 136px;
+    left: 75px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.volumen .div-wrapper {
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.volumen .text-wrapper {
+    position: relative;
+    width: 1289.6px;
+    margin-top: -1.00px;
+    background: linear-gradient(180deg, rgb(61, 29, 255) 0%, rgb(97, 71, 255) 28.65%, rgb(212, 81, 255) 45.83%, rgb(236, 69, 141) 78.96%, rgb(248, 147, 140) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: transparent;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: -3.07px;
+    line-height: 120px;
+}
+
+.volumen .overlap-group {
+    position: absolute;
+    width: 573px;
+    height: 616px;
+    top: 337px;
+    left: 433px;
+    background-color: #b4ffb4;
+}
+
+.volumen .image {
+    position: absolute;
+    width: 149px;
+    height: 66px;
+    top: 427px;
+    left: 253px;
+}
+
+.volumen .img {
+    position: absolute;
+    width: 144px;
+    height: 72px;
+    top: 272px;
+    left: 258px;
+}
+
+.volumen .image-2 {
+    position: absolute;
+    width: 85px;
+    height: 83px;
+    top: 111px;
+    left: 133px;
+    object-fit: cover;
+}
+
+.volumen .image-3 {
+    position: absolute;
+    width: 85px;
+    height: 83px;
+    top: 265px;
+    left: 133px;
+    object-fit: cover;
+}
+
+.volumen .image-4 {
+    position: absolute;
+    width: 81px;
+    height: 82px;
+    top: 419px;
+    left: 133px;
+    object-fit: cover;
+}
+
+.volumen .image-5 {
+    position: absolute;
+    width: 144px;
+    height: 74px;
+    top: 115px;
+    left: 258px;
+}
+
+.volumen .overlap {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 21px;
+    left: 35px;
+    border-radius: 56.5px;
+}
+
+.volumen .ellipse {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 56.5px;
+}
+
+.volumen .image-6 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 14px;
+    left: 14px;
+    object-fit: cover;
+}

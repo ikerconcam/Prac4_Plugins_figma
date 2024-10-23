@@ -1,0 +1,85 @@
+.difficulties {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .difficulties .div {
+    background-image: url(./img/difficulties.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .difficulties .frame {
+    gap: 80px;
+    position: absolute;
+    top: 220px;
+    left: 75px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .difficulties .coming-soon-wrapper {
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .difficulties .coming-soon {
+    position: relative;
+    width: 802.94px;
+    flex: 0 0 auto;
+    margin-bottom: -14.64px;
+  }
+  
+  .difficulties .text-wrapper {
+    position: absolute;
+    width: 719px;
+    height: 263px;
+    top: 511px;
+    left: 360px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -3.07px;
+    line-height: 120px;
+  }
+  
+  .difficulties .overlap-group {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 21px;
+    left: 33px;
+    border-radius: 56.5px;
+  }
+  
+  .difficulties .ellipse {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 56.5px;
+  }
+  
+  .difficulties .image {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 14px;
+    left: 14px;
+    object-fit: cover;
+  }

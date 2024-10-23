@@ -1,0 +1,124 @@
+.notis {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.notis .div {
+    background-image: url(./img/notis.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.notis .frame {
+    gap: 80px;
+    position: absolute;
+    top: 136px;
+    left: 75px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notis .div-wrapper {
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notis .text-wrapper {
+    position: relative;
+    width: 1289.6px;
+    margin-top: -1.00px;
+    background: linear-gradient(180deg, rgb(61, 29, 255) 0%, rgb(97, 71, 255) 28.65%, rgb(212, 81, 255) 45.83%, rgb(236, 69, 141) 78.96%, rgb(248, 147, 140) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: transparent;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: -3.07px;
+    line-height: 120px;
+}
+
+.notis .overlap {
+    position: absolute;
+    width: 623px;
+    height: 427px;
+    top: 365px;
+    left: 408px;
+    background-color: #b4ffb4;
+}
+
+.notis .image {
+    position: absolute;
+    width: 144px;
+    height: 66px;
+    top: 222px;
+    left: 358px;
+}
+
+.notis .img {
+    position: absolute;
+    width: 85px;
+    height: 83px;
+    top: 89px;
+    left: 148px;
+    object-fit: cover;
+}
+
+.notis .image-2 {
+    position: absolute;
+    width: 144px;
+    height: 74px;
+    top: 224px;
+    left: 119px;
+}
+
+.notis .image-3 {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    top: 88px;
+    left: 388px;
+    object-fit: cover;
+}
+
+.notis .overlap-group {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 21px;
+    left: 35px;
+    border-radius: 56.5px;
+}
+
+.notis .ellipse {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 56.5px;
+}
+
+.notis .image-4 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 10px;
+    left: 12px;
+    object-fit: cover;
+}

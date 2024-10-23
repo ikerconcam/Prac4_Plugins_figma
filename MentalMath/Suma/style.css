@@ -1,0 +1,178 @@
+.suma {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.suma .div {
+    background-image: url(./img/suma.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.suma .overlap {
+    position: absolute;
+    width: 1320px;
+    height: 222px;
+    top: 25px;
+    left: 38px;
+}
+
+.suma .frame {
+    gap: 80px;
+    position: absolute;
+    top: 102px;
+    left: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suma .div-wrapper {
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suma .text-wrapper {
+    position: relative;
+    width: 1289.6px;
+    margin-top: -1.00px;
+    background: linear-gradient(180deg, rgb(61, 29, 255) 0%, rgb(97, 71, 255) 28.65%, rgb(212, 81, 255) 45.83%, rgb(236, 69, 141) 78.96%, rgb(248, 147, 140) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: transparent;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: -3.07px;
+    line-height: 120px;
+}
+
+.suma .ellipse {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 56.5px;
+}
+
+.suma .image {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 14px;
+    left: 14px;
+    object-fit: cover;
+}
+
+.suma .overlap-group {
+    position: absolute;
+    width: 423px;
+    height: 124px;
+    top: 322px;
+    left: 143px;
+}
+
+.suma .rectangle {
+    position: absolute;
+    width: 395px;
+    height: 124px;
+    top: 0;
+    left: 28px;
+    background-color: #d9d9d9;
+}
+
+.suma .text-wrapper-2 {
+    position: absolute;
+    width: 369px;
+    height: 93px;
+    top: 15px;
+    left: 0;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: -3.07px;
+    line-height: 120px;
+    white-space: nowrap;
+}
+
+.suma .overlap-2 {
+    position: absolute;
+    width: 423px;
+    height: 124px;
+    top: 505px;
+    left: 143px;
+}
+
+.suma .overlap-group-2 {
+    position: absolute;
+    width: 423px;
+    height: 124px;
+    top: 687px;
+    left: 143px;
+}
+
+.suma .overlap-3 {
+    position: absolute;
+    width: 423px;
+    height: 124px;
+    top: 322px;
+    left: 826px;
+}
+
+.suma .overlap-4 {
+    position: absolute;
+    width: 423px;
+    height: 124px;
+    top: 505px;
+    left: 826px;
+}
+
+.suma .overlap-5 {
+    position: absolute;
+    width: 423px;
+    height: 124px;
+    top: 688px;
+    left: 826px;
+}
+
+.suma .overlap-6 {
+    position: absolute;
+    width: 404px;
+    height: 112px;
+    top: 863px;
+    left: 518px;
+    background-color: #ec1e6a;
+}
+
+.suma .text-wrapper-3 {
+    position: absolute;
+    width: 359px;
+    height: 65px;
+    top: 21px;
+    left: 22px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: -3.07px;
+    line-height: 120px;
+    white-space: nowrap;
+}
